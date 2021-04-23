@@ -1,0 +1,19 @@
+{
+    "type": "mysql",
+    "host": "localhost",
+    "port": 3306,
+    "username": "jadson",
+    "password": "123",
+    "database": "api",        
+    "entities": [
+       "src/app/models/*.ts"
+    ],
+    "migrations": [
+       "src/database/migrations/*.ts"
+    ],
+    "cli": {
+       "migrationsDir": "src/database/migrations"
+    }
+  
+  
+ }
